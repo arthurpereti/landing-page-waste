@@ -1,0 +1,419 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #016A70;
+
+    display: flex;
+    justify-content: center;
+}
+
+#retangulo{
+    margin-top: 2rem;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    height: 5rem;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#groupheaderitens{
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 18.75rem;
+}
+
+
+#logoheader{
+    width: 105px;
+    height: 31.457px;
+    flex-shrink: 0;
+
+    padding-left: 50;
+}
+
+#navbarheader nav li{
+    display: flex;
+    flex-direction: row;    
+}
+
+#navbarheader nav li ul a{
+    color: var(--Grey, #393E46);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+
+    text-decoration: none;
+}
+
+#buttonregisterheader{
+    display: inline-flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 10px;
+    background: var(--Green, #016A70);
+}
+
+#buttonregisterheader a{
+    color: var(--White, #FFF);
+
+    /* H6 - Semibold */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* section01 */
+
+#bannerpage{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #016A70;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#alinhamentobannerpage{
+    display: inline-flex;
+    align-items: center;
+    gap: 92px;
+
+    width: 75vw;
+}
+
+#textbanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#textbanner h3, h1, h6{
+    margin: 0px;
+}
+
+#textbanner h3{
+    color: white;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+#textbanner h1{
+    color: #EAEAA8;
+
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#textbanner h6{
+    color: white;
+
+/* H6 - regular */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#textbanner button{
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#imgbanner{
+    widows: 60vw;
+}
+
+#imgbanner img{
+    width: 30rem;
+    height: auto;
+}
+
+/*  section02  */
+
+#clientspage{
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+}
+
+#boxclients{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 120px;
+}
+
+.itensboxclients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.itensboxclients h1{
+    color: var(--Dark, #222831);
+
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.itensboxclients h3{
+    color: var(--Dark, #222831);
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* SECTION03 */
+
+#service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+    margin-bottom: 120px;
+}
+
+#serice #textservice h2, h3{
+    text-align: center;
+}
+
+#serice #textservice h2{
+    color: var(--Dark, #222831);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#serice #textservice h3{
+    color: var(--Dark, #222831);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#service #infoservice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+
+    margin-top: 50px;
+}
+
+#service #infoservice .boxinfoservice{
+    width: 333px;
+    height: 313px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+}
+
+#service #infoservice .boxinfoservice span{
+    font-size: 70px;
+    width: 80px;
+    height: 80px;
+}
+
+#service #infoservice .boxinfoservice .textboxinfoservice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#service #infoservice .boxinfoservice .textboxinfoservice h5{ 
+    color: #393E46;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#service #infoservice .boxinfoservice .textboxinfoservice h6{ 
+    color: #393E46;
+    text-align: center;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* section 04 */
+#product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+#product #textproduct{
+    text-align: center;
+}
+
+#product #textproduct h3{
+    color: var(--Dark, #222831);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#product #textproduct h2{
+    color: var(--Dark, #222831);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#product #itensproduct{
+    display: flex;
+    width: 1099px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#product #itensproduct .text{
+   background-color: #016A70;
+   color: white;
+
+   border-radius: 10px;
+}
+
+#product #itensproduct .text h5{
+    color: var(--White, #FFF);
+
+    /* H5 - semibold */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#product #itensproduct .text h6{
+    color: var(--White, #FFF);
+    text-align: center;
+    
+    /* H6 - regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#product .boxitensproduct{
+    border-radius: 10px;
+}
+
+/* /////////////////////// */
+footer{
+    padding-top: 250px;
+    padding-bottom: 50px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image:url('/public/img/backgroundfooter.svg');
+}
+
+
+footer #divgeralfooter{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+footer #logoetextfooter h6{
+    color: white;
+}
+
+footer .linksgeralfooter{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .linksgeralfooter h5{
+    color: white;
+}
+
+footer .alinhamentodivlinks{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .alinhamentodivlinks a{
+    text-decoration: none;
+    color: white;
+}
